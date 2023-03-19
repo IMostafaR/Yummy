@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+#sideBar .logo {
+  width: 3rem;
+}
+
+#sideBar #text {
+  width: 12rem;
+}
+
+#sideBar i,
+#sideBar li {
+  cursor: pointer;
+}
+
+.meal-info,
+.category-info {
+  top: 100%;
+  transition: top, 500ms;
+  -webkit-transition: top, 500ms;
+  -moz-transition: top, 500ms;
+  -ms-transition: top, 500ms;
+  -o-transition: top, 500ms;
+}
+
+.meal-card,
+.category-card,
+.area-card,
+.ingredient-card {
+  cursor: pointer;
+}
+
+.meal-card:hover .meal-info,
+.category-card:hover .category-info {
+  cursor: pointer;
+  top: 0;
+}
+
+p {
+  text-align: justify;
+}

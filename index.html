@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon" />
+    <!-- FontAwesome css file -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Yummy</title>
+  </head>
+  <body>
+    <section
+      id="sideBar"
+      class="position-fixed top-0 bottom-0 bg-white z-3 d-flex"
+    >
+      <div
+        class="sideBar-inner bg-black py-5 px-4 d-flex flex-column justify-content-between"
+      >
+        <ul class="list-unstyled">
+          <li class="mb-3">Home</li>
+          <li class="mb-3">Search</li>
+          <li class="mb-3">Categories</li>
+          <li class="mb-3">Area</li>
+          <li class="mb-3">Ingredients</li>
+          <li>Contact Us</li>
+        </ul>
+        <footer>
+          <div id="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <div id="text">
+            <p>Copyright &#169; 2019 All Rights Reserved.</p>
+          </div>
+        </footer>
+      </div>
+      <div
+        class="sideBar-toggler px-2 py-4 text-black d-flex flex-column justify-content-between"
+      >
+        <div><img class="logo" src="./images/logo.png" alt="Yummy logo" /></div>
+        <div class="m-auto">
+          <i class="fa-solid fa-bars fs-2"></i>
+        </div>
+        <div class="d-flex flex-column mx-auto">
+          <i class="fa-solid fa-globe mb-3"></i>
+          <i class="fa-solid fa-share-nodes"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="container w-75" id="search"></section>
+
+    <main id="home" class="my-5">
+      <div class="container">
+        <div id="homePage" class="row g-4"></div>
+      </div>
+    </main>
+
+    <!-- bootstrap js file -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- jquery js file -->
+    <script src="./js/jquery-3.6.3.min.js"></script>
+    <!-- main js file -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
